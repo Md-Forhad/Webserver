@@ -1,3 +1,10 @@
+### REFERENCES ###
+-----------------------------------------------------------------------------------------
+1. https://tomcat.apache.org/tomcat-9.0-doc/rewrite.html
+2. https://github.com/aurelius0523/tomcat-url-rewrite
+3. https://techcommunity.microsoft.com/blog/appsonazureblog/how-to-configure-url-rewrite-in-tomcat-java-app-on-azure-app-service-/3581137
+-----------------------------------------------------------------------------------------
+
 Step=>1
 ---------------------
 server.xml file => add this line after valve tag
