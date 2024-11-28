@@ -1,0 +1,17 @@
+Step=>1
+---------------------
+server.xml file => add this line after valve tag
+<Valve className="org.apache.catalina.valves.rewrite.RewriteValve" />
+
+Step=>2
+---------------------
+context.xml file =>add this line under context tag and after watchedResource tag
+<Valve className="org.apache.catalina.valves.rewrite.RewriteValve" />
+
+step=>3
+--------------------
+crete new file under webapps ords WEB-INF named rewrite.config
+
+  add this line in rewrite.config file
+  ----------------------------------------
+  RewriteRule /trust/redirct/callapexpage(.*) /r/trust/trustapp/online-payment$1 [R,NE]
